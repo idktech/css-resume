@@ -47,11 +47,13 @@ a:hover {
 .col-narrow {
     width: 30%;
     float: left;
+    min-height: 175px;
 }
 .col-wide {
     width: 70%;
     float: left;
     padding-left: 20px;
+    min-height: 175px;
 }
 /* Header and Footer
 -----------------------------*/
@@ -61,10 +63,6 @@ header, footer {
     color: #8d99ae;
 }
 /* Header */
-
-/* header {
-    text-align: center;
-} */
 
 header h1, header h2 {
     color: #edf2f4;
