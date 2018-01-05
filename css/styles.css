@@ -44,7 +44,7 @@ a:hover {
 .content-wrap {
 	max-width: 950px;
 	margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: auto;
 }
 .col-narrow {
@@ -62,6 +62,13 @@ a:hover {
 .uppercase {
     text-transform: uppercase;
 }
+.btn {
+    text-decoration: none;
+    background-color: #ef233c;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
 
 /* Header and Footer
 -----------------------------*/
@@ -71,6 +78,10 @@ header, footer {
     color: #8d99ae;
 }
 /* Header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
 
 header h1, header h2 {
     color: #edf2f4;
@@ -78,6 +89,11 @@ header h1, header h2 {
 }
 .profile-img {
     border-radius: 50%;
+}
+.download{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /* Footer */
 
@@ -92,6 +108,10 @@ footer {
 -----------------------------*/
 nav {
     text-align: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav a {
     display: inline-block;
