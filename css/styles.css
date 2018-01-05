@@ -144,7 +144,10 @@ h3 ~ p {
 -----------------------------*/
 
 .education {
-    background: #8d99ae;
+/* sets gradient and image */
+    background: linear-gradient(rgba(141, 153, 174, 0.8),rgba(43, 45, 66, 0.5)),
+                url(../images/books.jpg) no-repeat fixed;
+    background-size: cover;            
 }
 
 p + h3 {
