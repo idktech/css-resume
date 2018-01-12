@@ -159,3 +159,11 @@ p + h3 {
         
     }
 }
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
