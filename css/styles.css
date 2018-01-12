@@ -145,7 +145,7 @@ p + h3 {
 
 /* Media Queries
 -----------------------------*/
-@media (min-width: 900px;) {
+@media (min-width: 900px) {
 
     .col-narrow {
         width: 30%;
